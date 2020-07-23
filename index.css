@@ -1,0 +1,128 @@
+/* General container & element styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 20px;
+}
+
+body {
+  background: #cdf3ff;
+  font-family: 'Fredoka One', cursive;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.results {
+  background: #B0E0E6;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
+
+.init-bg {
+  background-image: url("dog-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  padding: 30px 0;
+}
+
+.init-content {
+  border-radius: 20px;
+  background: #B0E0E6;
+  font-family: 'Fredoka One', cursive;
+  margin: auto;
+  padding: 40px 25px 25px;
+  opacity: .9;
+  text-align: center;
+  width: 85%;
+} 
+
+.hidden {
+  display: none;
+};
+
+.results {
+  display: flex;
+}
+
+/* Text styling */
+
+h1 {
+  margin: 25px auto;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 30px auto 10px;
+}
+
+p {
+  font-size: 22px;
+  margin: 25px auto 0;
+}
+
+span {
+  font-size: 16px;
+}
+
+label, p, span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+/* input styling */
+
+input {
+  display: block;
+  margin: 15px auto;
+}
+
+input[type=text] {
+  border: 2px solid #000;
+  font-family: 'Fredoka One', cursive;
+  padding: 7px;
+}
+
+input:hover {
+  background: #fff;
+  opacity: .8;
+  transform: scale(1.1);
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+}
+
+.submit-button {
+  border: 3px solid #000;
+  border-radius: 8px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+/* image styling */
+.fa-dog {
+  font-size: 72px;
+}
+
+.fa-paw {
+    font-size: 92px;
+    margin: 20px auto 0;
+}
+
+.pictureDisplay{
+  margin: 40px auto 0;
+  padding-bottom: 20px;
+};
