@@ -23,7 +23,7 @@ const displayResults = (responseJson) => {
     for (const element of breedList) {
       $('h2, p, span').removeClass('hidden');
       $('.pictureDisplay').append(
-        `<img src="${element}" class="results-img" width="auto" height="225" style="margin: 10px; border-radius: 5px;">`
+        `<img src="${element}" class="results-img" width="250" height="auto" style="margin: 10px; border-radius: 5px;">`
       );
     };
   // if search isn't found display not found message  
