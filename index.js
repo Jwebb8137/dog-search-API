@@ -38,7 +38,7 @@ const watchForm = () => {
   $('form').submit(event => {
     event.preventDefault();
     //set variable
-    let breed = $('#breed').val();
+    let breed = $('#breed').val().toLowerCase();
     //pass variable to getDogImages function
     getDogImages(breed);
   });
